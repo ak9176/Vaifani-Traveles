@@ -1,0 +1,14 @@
+# robots.txt for Tours & Travels Website
+
+User-agent: *
+Disallow: /admin/
+Disallow: /config/
+Disallow: /includes/
+
+# Allow access to specific files
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /assets/images/
+
+# Sitemap location
+Sitemap: https://yourdomain.com/sitemap.xml
